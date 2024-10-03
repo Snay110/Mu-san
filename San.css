@@ -1,6 +1,34 @@
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+
 .note-editorial {
 	color: rgb(43, 46, 226);
+	display: flex;
+	justify-content: center;
 }
 .Sam {
-	color: aqua;
+	color: rgb(14, 10, 10);
+	display: flex;
+	justify-content: center;
+} 
+.container {
+	width: 100%;
+	height: 200px;
+	background-color: rgb(5, 15, 13);
+}
+
+.item {
+	box-sizing: border-box;
+	border: solid black;
+	width: 25px;
+	height: 25px;
+	background-color: blue;
+}
+.zopa {
+	display: flex;
+	justify-content: center;
 }
